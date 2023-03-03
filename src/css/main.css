@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Tilt+Neon&display=swap');
+
+:root {
+    --kaushan-script: 'Kaushan Script', cursive;
+    --tilt-neon: 'Tilt Neon', cursive;
+}
+
+* {
+    font-family: var(--tilt-neon);
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+.ff-kaushan-script {
+    font-family: var(--kaushan-script);
+}
+
+.ff-tilt-neon {
+    font-family: var(--tilt-neon);
+}
+
+.bg-dark {
+    background-color: #212529;
+}
+
+.hero {
+    background-image: url(../img/header-bg.jpg);
+}
+
+.title {
+    color: white;
+    font-size: 20pt;
+}
+
+.sub-title {
+    color: white;
+    font-size: 40pt;
+}
+
+.h-100 {
+    height: calc(100vh - 3rem) !important;
+}
+
+.item-center {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.tell {
+    border: 0;
+    border-radius: 10px;
+    color: white;
+}
